@@ -1,19 +1,19 @@
 function ConverterFahrenheit() {
-var valorCelciusF = (document.getElementById("valor")).value;
-var valorCelciuNumerico = parseFloat(valorCelciusF)
+var valorCelcius = (document.getElementById("valor")).value;
+var valorCelciuNumerico = parseFloat(valorCelcius)
 var valorEmFahrenheit = (valorCelciuNumerico*1.8)+32
 console.log (valorEmFahrenheit);
-var elementoValorConvertido = document.getElementById ("valorConvertidoFahrenheit");
-var valorConvertido = valorEmFahrenheit + "°F";
-elementoValorConvertido.innerHTML = valorConvertido;
+var elementoValorConvertidoF = document.getElementById ("valorConvertidoFahrenheit");
+var valorConvertidoF = valorEmFahrenheit + "°F";
+elementoValorConvertidoF.innerHTML = valorConvertidoF;
 }
 
 function ConverterKelvin() {
-    var valorCelciusF = (document.getElementById("valor")).value;
-    var valorCelciuNumerico = parseFloat(valorCelciusF)
+    var valorCelcius = (document.getElementById("valor")).value;
+    var valorCelciuNumerico = parseFloat(valorCelcius)
     var valorEmKelvin = (valorCelciuNumerico+273)
     console.log (valorEmKelvin);
-    var elementoValorConvertido = document.getElementById ("valorConvertidokevin");
-    var valorConvertido = valorEmKelvin + "°F";
-    elementoValorConvertido.innerHTML = valorConvertido;
+    var elementoValorConvertidoK = document.getElementById ("valorConvertidokelvin");
+    var valorConvertidoK = valorEmKelvin + "k";
+    elementoValorConvertidoK.innerHTML = valorConvertidoK;
     }

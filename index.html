@@ -12,14 +12,19 @@
   Conversor de Temperatura
 </h1>
 <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+<section class="areadeentrada">
+  
+  <label for="moeda">Insira o valor em Celcius</label><br>
+  <input type="number" id="valor" size="2" /><br>
+
+</section>
+
 <section class="areadeconversao">
   <div class="container">
       <p class="page-subtitle">
         Converta as temperaturas de Celcius para fahrenheit
       </p> 
       <img class="imagemConversor" src= "img/fahrenheit.png">
-      <label for="moeda">Insira o valor em Celcius</label><br>
-      <input type="number" id="valor" size="2" /><br>
       <button type="submit" onclick="ConverterFahrenheit()">Converter</button>
       <h2 id="valorConvertidoFahrenheit"></h2>
   </div>
@@ -28,8 +33,6 @@
         Converta as temperaturas de Celcius para Kelvin
       </p> 
       <img class="imagemConversor" src="img/kelvin.png">
-      <label for="moeda">Insira o valor em Celcius</label><br>
-      <input type="number" id="valor" size="2" /><br>
       <button type="submit" onclick="ConverterKelvin()">Converter</button>
       <h2 id="valorConvertidokelvin"></h2>
   </div>
