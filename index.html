@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-br" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Conversor de moedas - ID3</title>
+  <title>Conversor de Temperatura| Fran Pastori</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="container">
-  <h1 class="page-title">
-    Conversor de moedas
-  </h1>
-  <p class="page-subtitle">
-    Descubra os valores em dolar U$
-  </p>
-  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-  <label for="moeda">Insira o valor</label><br>
-  <input type="number" id="valor" size="2" /><br>
-  <button type="submit" onclick="Converter()">Converter</button>
-  <h2 id="valorConvertido"></h2>
-</div>
+<h1 class="page-title">
+  Conversor de Temperatura
+</h1>
+<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+<section class="areadeconversao">
+  <div class="container">
+      <p class="page-subtitle">
+        Converta as temperaturas de Celcius para fahrenheit
+      </p> 
+      <img class="imagemConversor" src= "img/fahrenheit.png">
+      <label for="moeda">Insira o valor em Celcius</label><br>
+      <input type="number" id="valor" size="2" /><br>
+      <button type="submit" onclick="ConverterFahrenheit()">Converter</button>
+      <h2 id="valorConvertido"></h2>
+  </div>
+  <div class="container">
+      <p class="page-subtitle">
+        Converta as temperaturas de Celcius para Kelvin
+      </p> 
+      <img class="imagemConversor" src="img/kelvin.png">
+      <label for="moeda">Insira o valor em Celcius</label><br>
+      <input type="number" id="valor" size="2" /><br>
+      <button type="submit" onclick="ConverterKelvin()">Converter</button>
+      <h2 id="valorConvertido"></h2>
+  </div>
+</section>
+<div class="alura-logo">
 <a href="https://alura.com.br/" target="_blank">
-  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" >
+  <img  class="redeSocial" src="img/logoFran.png" alt="" class="logo-Fran">
+
+<a href="https://www.instagram.com/franpastori/" target="_blank">
+  <img class="redeSocial" src="img/logoInstagram.png" alt="" class="Meu Instagram">
+<a href="https://www.instagram.com/franpastori/" target="_blank">
+  <img class="redeSocial" src="img/iconLinkedin.png" alt="" class="Meu Linkedin">
+
+</div>
 <!-- partial -->
   
 </body>
