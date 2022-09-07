@@ -1,1 +1,5 @@
+function ConverterFahrenheit() {
+var valorCelciusF = 
 
+
+}
