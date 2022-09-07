@@ -1,1 +1,5 @@
-# imers-oDevproj1
+# ImersãoDev Alura
+
+Projeto Conversor de Temperaturas!🌡🌡🌡
+
+Em construção!
